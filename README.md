@@ -35,6 +35,11 @@
   ### NGFW:
     1.  This is just a skeleton for future work.  It logs into the NGFW and runs a show command.  I would love to get a chance to develop this further, but
         Palo's GUI is fairly complete and diving into their SDK is going to give better results for most use cases.
+
+## Twilio
+  ### Load Testing
+    1.  Uses Twilio to call a number and play "Never Going to Give You Up".  It loops with a 1 sec delay before starting a second (third, fourth,...) call.
+    
 ## Bash:
   1.  A script that polls BGP time in current state from a number of devices.
   2.  A script that lists network devices in a meaningful hierarchy and allows ssh to them.
